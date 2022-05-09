@@ -14,7 +14,6 @@
 ![Capture30](https://media.giphy.com/media/wF2bXdKTW0PGHbDWjy/giphy.gif)
 ## Languages Used
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=barkleylikecharles&layout=compact&s_count=8)]
-(https://github.com/barkleylikecharles/github-evalueat)
 
 ## Description
 Welcome to WARE SHARE! A clothing blog where individuals can gather together to share their opinions, their thoughts, likes, dislikes on any recently purchased threads!  Our motivation you ask ??? Good question, we wanted to create a honest social platform for people to use (with zero paid sponsorships or reviews) to let each other know whether a piece of clothing is worth or NOT worth purchasing.

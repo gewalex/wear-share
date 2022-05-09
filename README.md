@@ -29,7 +29,6 @@ If the user wants to clone this repo, User must do a npm i to initiate all packa
 You are able to use on a personal computer or mobile phone
 
 ## Website
-https://github.com/gewalex/wear-share
 https://wear-share.herokuapp.com/
 
 ## Credits

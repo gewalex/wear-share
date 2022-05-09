@@ -1,0 +1,44 @@
+<section>
+  <h2>Create New Post</h2>
+
+  {{!-- second formn for image --}}
+  <form class="new-post-form">
+   <div>
+     
+      <input type="text" id="post-title" name="post-title" placeholder="Title"/>
+    </div>
+
+
+  {{!-- insert input file ends --}}
+  <label style="padding-bottom: 2%; padding-top: 1.5%;">
+
+    <div id="urlbox">
+        <input type="text" id="url-title" name="url-title" placeholder="Insert Url" />
+    </div>
+    <div>
+      <label for="post-text"></label>
+      <textarea name="post-text" id="post-text" cols="30" rows="10" placeholder="Say Anything..."></textarea>
+    </div>
+    
+   
+    {{!-- display the image that was uploaded dynamically --}}
+    
+   <button id="postbtn" type="submit" class="btn">Post</button>
+  </form>
+</section>
+
+{{#if posts.length}}
+<section>
+  <h2 style="padding-top: 2%;">Your Posts</h2>
+  <div>
+    {{#each posts as |post|}}
+    <div>
+      {{> post-info post}}
+      <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
+    </div>
+    {{/each}}
+  </div>
+</section>
+{{/if}}
+<script src="/javascript/add-image.js"></script>
+<script src="/javascript/add-post.js"></script>
